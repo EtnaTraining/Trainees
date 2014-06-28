@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<TextField id="username" hintText="email address"/>
+		<TextField id="password" hintText="password"/>
+		<Button onClick="login">Login</Button>
+	</Window>
+</Alloy>

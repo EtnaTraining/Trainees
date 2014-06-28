@@ -1,0 +1,9 @@
+<Alloy>
+	<NavigationWindow>
+		<Window class="container" title="EtnaTraining registrants" onFocus="loadData">
+			<TableView id="tv" filterAttribute="title" onClick="showDetail">
+				 <SearchBar platform="ios"/>
+			</TableView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

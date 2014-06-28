@@ -1,0 +1,18 @@
+
+".container" : {
+	backgroundColor: "white",
+	layout: "vertical"
+},
+"TextField": {
+	top: 40,
+	height: 50,
+	width: "80%",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	autocorrect: false
+},
+"#password": {
+	passwordMask: true
+}
+"Button": {
+	top: 40
+}
